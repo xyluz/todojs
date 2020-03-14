@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "prod": "npx parcel build src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.4",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.27",
+    "tailwindcss": "^1.2.0"
+  },
+  "dependencies": {
+    "pretty-checkbox": "^3.0.3"
+  }
+}

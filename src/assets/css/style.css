@@ -1,0 +1,79 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+.greetings {
+  @apply text-4xl text-center mt-16 mb-10 text-gray-500 font-bold font-sans;
+}
+.svgicon {
+  @apply w-24 h-24 mx-auto mb-8;
+}
+.heading {
+  @apply text-center text-4xl text-gray-700 font-bold mb-6;
+}
+.subheading {
+  @apply text-center font-normal text-gray-700 tracking-wider mb-4;
+  font-size: 33px;
+}
+.myform {
+  @apply w-1/2 mx-auto bg-white py-6 mb-4;
+}
+.myform-lg {
+  @apply w-full;
+}
+.todoInput {
+  @apply shadow appearance-none rounded w-full border-gray-700 border-4 py-6 px-4 text-gray-700 text-2xl leading-tight;
+}
+.todo-item {
+  @apply py-3 text-2xl font-bold text-gray-800;
+}
+.info {
+  @apply mx-auto;
+}
+.todolist {
+  @apply mx-auto overflow-y-auto overflow-x-hidden w-1/2;
+}
+.todo-text {
+  @apply self-center flex-auto p-3 w-1/2 break-words;
+}
+.complete-btn {
+  @apply p-3 text-lg font-bold text-green-600 border-2 rounded border-green-400 flex-auto;
+}
+.delete-btn {
+  @apply p-3 text-lg font-bold text-red-600 border-2 rounded border-red-400 flex-auto;
+}
+
+.done {
+  @apply text-gray-800 border-2 p-3 rounded border-green-600 bg-green-200;
+}
+
+.strike {
+  @apply line-through text-gray-700;
+}
+
+.info {
+  width: 50%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500;
+}
+/* purgecss end ignore */
+
+@tailwind utilities;
